@@ -175,7 +175,7 @@ function handleSubmit(e) {
   message += `━━━━━━━━━━━━━━━━`;
 
   // إرسال إلى واتساب
-  const whatsappNumber = '967772630725';
+  const whatsappNumber = '967739768973';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   const whatsappWindow = window.open(whatsappUrl, '_blank');
